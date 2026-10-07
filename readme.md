@@ -1,6 +1,6 @@
 ## Hola, gente bonita.
 
-## Este es un ejercicio de video y audio del curso IFCD0110.
+### Este es un ejercicio de video y audio del curso IFCD0110.
 
 ### Encontrarán en la página información sobre los ejercicios que hemos hecho en clase.
 
