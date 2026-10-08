@@ -85,9 +85,15 @@
         </header>
 
         <!-- Navigation -->
-        <div class="w3-top">
-            <nav class="w3-flex" id="myNavbar">
-                <a href="#home" class="w3-button">INICIO</a>
+        <nav class="w3-top">
+            <h2 style="display: none">Menú princial</h2>
+            <ul class="w3-flex" id="myNavbar">
+                <li>
+                    <a href="#home" class="w3-button">INICIO</a>
+                </li>
+                <li>
+                    <a href="#about" class="w3-button w3-hide-small"> <i class="fa fa-user"></i> SOBRE </a>
+                </li>
 
                 <a href="#about" class="w3-button w3-hide-small"> <i class="fa fa-user"></i> SOBRE </a>
 
@@ -102,7 +108,7 @@
                 <button class="w3-button w3-hide-medium w3-hide-large" style="margin-left: auto" onclick="toggleFunction()" title="Toggle Navigation Menu">
                     <i class="fa fa-bars"></i>
                 </button>
-            </nav>
+            </ul>
 
             <!-- Navigation on small screens -->
             <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
@@ -114,7 +120,7 @@
 
                 <a href="#" class="w3-bar-item w3-button">SEARCH</a>
             </div>
-        </div>
+        </nav>
 
         <section>
             <!-- About -->
