@@ -87,23 +87,36 @@
         <!-- Navigation -->
         <nav class="w3-top">
             <h2 style="display: none">Menú princial</h2>
-            <ul class="w3-flex" id="myNavbar">
+            <ul class="w3-flex" id="myNavbar" style="list-style: none">
                 <li>
-                    <a href="#home" class="w3-button">INICIO</a>
+                    <a href="#home" class="w3-button">
+                        <i class="fa fa-home"></i>
+                        <span>INICIO</span>
+                    </a>
                 </li>
                 <li>
-                    <a href="#about" class="w3-button w3-hide-small"> <i class="fa fa-user"></i> SOBRE </a>
+                    <a href="#about" class="w3-button w3-hide-small">
+                        <i class="fa fa-user"></i>
+                        <span>SOBRE</span>
+                    </a>
                 </li>
-
-                <a href="#about" class="w3-button w3-hide-small"> <i class="fa fa-user"></i> SOBRE </a>
-
-                <a href="#portfolio" class="w3-button w3-hide-small"> <i class="fa fa-th"></i> PORTFOLIO </a>
-
-                <a href="#contact" class="w3-button w3-hide-small"> <i class="fa fa-envelope"></i> CONTACTO </a>
-
-                <a href="#" class="w3-button w3-hide-small w3-hover-red" style="margin-left: auto">
-                    <i class="fa fa-search"></i>
-                </a>
+                <li>
+                    <a href="#portfolio" class="w3-button w3-hide-small">
+                        <i class="fa fa-th"></i>
+                        <span>TRABAJOS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="w3-button w3-hide-small">
+                        <i class="fa fa-envelope"></i>
+                        <span>CONTACTO</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="w3-button w3-hide-small w3-hover-red" style="margin-left: auto" title="Buscar">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </li>
 
                 <button class="w3-button w3-hide-medium w3-hide-large" style="margin-left: auto" onclick="toggleFunction()" title="Toggle Navigation Menu">
                     <i class="fa fa-bars"></i>
