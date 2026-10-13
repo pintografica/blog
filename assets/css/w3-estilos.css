@@ -56,3 +56,7 @@ html {
         min-height: 400px;
     }
 }
+
+.pechado {
+    display: none;
+}
