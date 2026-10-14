@@ -85,6 +85,11 @@ ul.pinto-galeria li {
     padding: 1em;
     border: 2px solid rgb(241, 64, 174);
 }
+
 .pechado {
     display: none;
+}
+
+.pinto-colorpink {
+    color: #f2226e;
 }
