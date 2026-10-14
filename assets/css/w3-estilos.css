@@ -97,3 +97,7 @@ ul.pinto-galeria li {
 .pinto-colorpink {
     color: #f2226e;
 }
+
+.pinto-alineación {
+    display: inline-block;
+}
