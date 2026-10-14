@@ -24,6 +24,10 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Parallax images */
 .bgimg-1,
 .bgimg-2,
