@@ -3,22 +3,35 @@
     --color-secundario: #54e899;
     --color-terciario: #e8fd5c;
     --color-texto: #222;
+
+    --fontfamily-titles: "Titan One", sans-serif;
+    --fontfamily-textos: "Montserrat", sans-serif;
 }
 
-body,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato", sans-serif;
+    font-family: var(--fontfamily-titles);
 }
 body,
 html {
     height: 100%;
     color: #000000cc;
     line-height: 1.8;
+}
+
+html,
+article,
+p,
+li,
+span,
+figcaption,
+caption,
+legend {
+    font-family: var(--fontfamily-textos);
 }
 
 html,
