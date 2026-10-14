@@ -87,7 +87,7 @@ img.avatar {
 ul.pinto-galeria li {
     /* margin: 1em; */
     padding: 1em;
-    border: 2px solid #f2226e;
+    border: 2px solid #f55992;
 }
 
 .pechado {
@@ -95,9 +95,14 @@ ul.pinto-galeria li {
 }
 
 .pinto-colorpink {
-    color: #f2226e;
+    color: #f55992;
 }
 
 .pinto-alineación {
     display: inline-block;
+}
+
+.pinto-títulos {
+    background-color: #f2226e;
+    padding: 1em;
 }
