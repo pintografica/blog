@@ -67,6 +67,11 @@ ul {
     }
 }
 
+img.avatar {
+    width: 100%;
+    max-width: 500px;
+}
+
 .align-right {
     margin-left: auto;
 }
@@ -75,6 +80,11 @@ ul {
     text-transform: uppercase;
 }
 
+ul.pinto-galeria li {
+    /* margin: 1em; */
+    padding: 1em;
+    border: 2px solid rgb(241, 64, 174);
+}
 .pechado {
     display: none;
 }
