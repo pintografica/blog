@@ -12,6 +12,13 @@
     --bg-url-parallax-3: url(../img/pantalladecodigohtml.webp);
 
     --bg-tarea-1: url("https://www.w3schools.com/w3images/p1.jpg");
+    --bg-tarea-2: url("https://www.w3schools.com/w3images/p2.jpg");
+    --bg-tarea-3: url("https://www.w3schools.com/w3images/p3.jpg");
+    --bg-tarea-4: url("https://www.w3schools.com/w3images/p4.jpg");
+    --bg-tarea-5: url("https://www.w3schools.com/w3images/p5.jpg");
+    --bg-tarea-6: url("https://www.w3schools.com/w3images/p6.jpg");
+    --bg-tarea-7: url("https://www.w3schools.com/w3images/p7.jpg");
+    --bg-tarea-8: url("https://www.w3schools.com/w3images/p8.jpg");
 }
 
 h1,
@@ -96,7 +103,8 @@ article address ul li a {
 
 .pinto-bg-tarea {
     width: 100%;
-    height: 100%;
+    aspect-ratio: 4/3;
+    /* height: 100px; */
     margin: 0;
 }
 
