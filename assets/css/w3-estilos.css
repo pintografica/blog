@@ -10,6 +10,8 @@
     --bg-url-portada: url(../img/pexels-noemiji.webp);
     --bg-url-parallax-2: url(../img/codigojavascripcolor.webp);
     --bg-url-parallax-3: url(../img/pantalladecodigohtml.webp);
+
+    --bg-tarea-1: url("https://www.w3schools.com/w3images/p1.jpg");
 }
 
 h1,
@@ -90,6 +92,44 @@ article address ul li a {
 .pinto-parallax3 {
     background-color: #54e899;
     background-image: var(--bg-url-parallax-3);
+}
+
+.pinto-bg-tarea {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.pinto-bg-tarea-1 {
+    background-image: var(--bg-tarea-1);
+}
+
+.pinto-bg-tarea-2 {
+    background-image: var(--bg-tarea-2);
+}
+
+.pinto-bg-tarea-3 {
+    background-image: var(--bg-tarea-3);
+}
+
+.pinto-bg-tarea-4 {
+    background-image: var(--bg-tarea-4);
+}
+
+.pinto-bg-tarea-5 {
+    background-image: var(--bg-tarea-5);
+}
+
+.pinto-bg-tarea-6 {
+    background-image: var(--bg-tarea-6);
+}
+
+.pinto-bg-tarea-7 {
+    background-image: var(--bg-tarea-7);
+}
+
+.pinto-bg-tarea-8 {
+    background-image: var(--bg-tarea-8);
 }
 
 .pinto-medidafondo {
