@@ -6,6 +6,10 @@
 
     --fontfamily-titles: "Titan One", sans-serif;
     --fontfamily-textos: "Montserrat", sans-serif;
+
+    --bg-url-portada: url(../img/pexels-noemiji.webp);
+    --bg-url-parallax-2: url(../img/codigojavascripcolor.webp);
+    --bg-url-parallax-3: url(../img/pantalladecodigohtml.webp);
 }
 
 h1,
@@ -74,18 +78,18 @@ article address ul li a {
 
 .pinto-portada {
     background-color: #f55992;
-    background-image: url(../img/pexels-noemiji.webp);
+    background-image: var(--bg-url-portada);
     min-height: 100vh;
 }
 
 .pinto-parallax2 {
     background-color: #54e899;
-    background-image: url(../img/codigojavascripcolor.webp);
+    background-image: var(--bg-url-parallax-2);
 }
 
 .pinto-parallax3 {
     background-color: #54e899;
-    background-image: url(../img/pantalladecodigohtml.webp);
+    background-image: var(--bg-url-parallax-3);
 }
 
 .pinto-medidafondo {
