@@ -60,26 +60,27 @@ article address ul li a {
 }
 
 /* Parallax images */
-.bgimg-1,
-.bgimg-2,
-.bgimg-3 {
-    background-attachment: fixed;
+.pinto-bgimg {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bgimg-1 {
+.pinto-fixed {
+    background-attachment: fixed;
+}
+
+.pinto-parallax1 {
     background-image: url(../img/pexels-noemiji.webp);
     min-height: 100%;
 }
 
-.bgimg-2 {
+.pinto-parallax2 {
     background-image: url(../img/codigojavascripcolor.webp);
     min-height: 400px;
 }
 
-.bgimg-3 {
+.pinto-parallax3 {
     background-image: url(../img/pantalladecodigohtml.webp);
     min-height: 400px;
 }
